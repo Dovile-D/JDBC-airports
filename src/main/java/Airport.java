@@ -5,9 +5,9 @@ public class Airport {
     private String city;
 
     // constructor for editing an entry:
-    public Airport(int biz_id, String biz_name, String address, String city) {
-        this.bizId = biz_id;
-        this.bizName = biz_name;
+    public Airport(int bizId, String bizName, String address, String city) {
+        this.bizId = bizId;
+        this.bizName = bizName;
         this.address = address;
         this.city = city;
     }

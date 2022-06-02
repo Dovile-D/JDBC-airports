@@ -118,10 +118,10 @@ public class AirportDAO {
             // create result set
             while (resultSet.next()) {
                 airports.add(new Airport(
-                resultSet.getInt("biz_id"),
-                resultSet.getString("biz_name"),
-                resultSet.getString("address"),
-                resultSet.getString("city")
+                        resultSet.getInt("biz_id"),
+                        resultSet.getString("biz_name"),
+                        resultSet.getString("address"),
+                        resultSet.getString("city")
                 ));
             }
 

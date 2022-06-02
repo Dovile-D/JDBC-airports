@@ -31,8 +31,7 @@ public class Main {
         ArrayList<Airport> airports = AirportDAO.searchByCity("Ka");
         if (airports.size() == 0) {
             System.out.println("no entries");
-        }
-        else {
+        } else {
             System.out.println(airports);
         }
 

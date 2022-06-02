@@ -8,6 +8,9 @@ public class Main {
 
 //    update:
     Airport airportUpdate = new Airport(16, "Palangos Oro Uostas", "Pajurio 55", "Palanga");
-    AirportDAO.updateById(airportUpdate);
+//    AirportDAO.updateById(airportUpdate);
+
+//    delete:
+        AirportDAO.deleteById(14);
     }
 }

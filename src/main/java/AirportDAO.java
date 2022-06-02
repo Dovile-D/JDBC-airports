@@ -27,8 +27,8 @@ public class AirportDAO {
             preparedStatement.setString(2, airport.getAddress());
             preparedStatement.setString(3, airport.getCity());
             // run prepared query:
-            preparedStatement.executeUpdate(); // this method is used to create new entry
-//            preparedStatement.executeQuery(); // this method is used to find entries for updating and deleting
+            preparedStatement.executeUpdate(); // this method is used to create new entry, update or delete entry
+//            preparedStatement.executeQuery(); // this method is used to read entries
 
             // close connection to a database:
             connection.close();
@@ -58,8 +58,8 @@ public class AirportDAO {
             preparedStatement.setInt(4, airport.getBizId());
 
             // run prepared query:
-            preparedStatement.executeUpdate(); // this method is used to create new entry
-//            preparedStatement.executeQuery(); // this method is used to find entries for updating and deleting
+            preparedStatement.executeUpdate(); // this method is used to create new entry, update or delete entry
+//            preparedStatement.executeQuery(); // this method is used to read entries
 
             // close connection to a database:
             connection.close();
@@ -87,8 +87,8 @@ public class AirportDAO {
             preparedStatement.setInt(1, bizId);
 
             // run prepared query:
-            preparedStatement.executeUpdate(); // this method is used to create new entry
-//            preparedStatement.executeQuery(); // this method is used to find entries for updating and deleting
+            preparedStatement.executeUpdate(); // this method is used to create new entry, update or delete entry
+//            preparedStatement.executeQuery(); // this method is used to read entries
 
             // close connection to a database:
             connection.close();

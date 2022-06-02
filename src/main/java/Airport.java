@@ -19,7 +19,8 @@ public class Airport {
         this.city = city;
     }
 
-    public Airport () {}
+    public Airport() {
+    }
 
     public int getBizId() {
         return bizId;

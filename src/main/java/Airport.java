@@ -53,6 +53,15 @@ public class Airport {
     public void setBizId(int bizId) {
         this.bizId = bizId;
 
+    }
 
+    @Override
+    public String toString() {
+        return "Airport{" +
+                "bizId=" + bizId +
+                ", bizName='" + bizName + '\'' +
+                ", address='" + address + '\'' +
+                ", city='" + city + '\'' +
+                '}';
     }
 }
